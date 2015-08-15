@@ -1,0 +1,2 @@
+{"message":"31/May/2015:12:49:00 +0200 183.60.215.50 <This","@version":"1","@timestamp":"2015-06-07T12:08:14.712Z","host":"localhost.localdomain","tags":["_grokparsefailure"]}
+{"message":"31/May/2015:12:49:02 +0200 32.204.68.9 <Hello Snickers","@version":"1","@timestamp":"2015-06-07T12:08:14.713Z","host":"localhost.localdomain","tags":["_grokparsefailure"]}
