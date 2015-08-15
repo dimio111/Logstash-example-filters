@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-logstash agent -f ../Config-files/03/conditional02.conf
+. ./export-logstash-path.sh --source-only
+
+$LOGSTASH/bin/logstash agent -f ../Config-files/03/conditional02.conf

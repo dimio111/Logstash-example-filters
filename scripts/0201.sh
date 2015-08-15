@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-logstash agent -f ../Config-files/02/grok01.conf
+. ./export-logstash-path.sh --source-only
+
+$LOGSTASH/bin/logstash agent -f ../Config-files/02/grok01.conf
