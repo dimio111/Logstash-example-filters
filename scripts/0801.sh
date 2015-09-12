@@ -2,4 +2,4 @@
 
 . ./export-logstash-path.sh --source-only
 
-$LOGSTASH/bin/logstash agent -f ../Config-files/08/collectd01.conf
+$LOGSTASH/bin/logstash agent -f ../Config-files/09/readFromFile01.conf
